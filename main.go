@@ -25,8 +25,8 @@ func main() {
 	server := mail.NewSMTPClient()
 	server.Host = "smtp.mailtrap.io"
 	server.Port = 2525
-	server.Username = "275a54a5db8a21"
-	server.Password = "f49cb18f409064"
+	server.Username = "yourUsername"
+	server.Password = "yourPassword"
 	server.Encryption = mail.EncryptionTLS
 
 	smtpClient, err := server.Connect()
